@@ -1,0 +1,34 @@
+#Messages sent to players
+message:
+  openedGUI: "&cSelect the block type of the wall you want to gen."
+  cannotAfford: "&cYou can't afford the &f$%price%&c!"
+  paid: "&a$%price% has been taken from your balance."
+  noPermission: "&cYou don't have permission for this!"
+  mustBePlayer: "&4You must be a player to use this command!"
+  playerNotFound: "&4Player cannot be found."
+
+#Title for the "shop" GUI
+guiTitle: "&c&lInstaGen Blocks"
+
+#The section below is for the details on gen blocks
+cobbleGen:
+  price: 10
+  ticksPerGen: 10
+  name: "&8&lCobblestone Generator"
+  lore:
+  - "&fPlace this to generate &6&lcobblestone &fblocks downwards!"
+  
+sandGen:
+  price: 10
+  ticksPerGen: 20
+  name: "&e&lSand Generator"
+  lore:
+  - "&fPlace this to generate &6&lsand &fblocks downwards!"
+  - "&fDon't worry, the blocks won't fall!"
+
+obsidianGen:
+  price: 100
+  ticksPerGen: 50
+  name: "&5&lObsidian Generator"
+  lore:
+  - "&fPlace this to generate &6&lendstone &fblocks downwards!"
